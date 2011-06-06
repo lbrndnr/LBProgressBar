@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B3F7423139BB49600CBC464 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B3F7422139BB49600CBC464 /* Cocoa.framework */; };
+		2B3F742D139BB49600CBC464 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2B3F742B139BB49600CBC464 /* InfoPlist.strings */; };
+		2B3F742F139BB49600CBC464 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3F742E139BB49600CBC464 /* main.m */; };
+		2B3F7433139BB49600CBC464 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2B3F7431139BB49600CBC464 /* Credits.rtf */; };
+		2B3F7436139BB49600CBC464 /* LBProgressBarAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3F7435139BB49600CBC464 /* LBProgressBarAppDelegate.m */; };
+		2B3F7439139BB49600CBC464 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B3F7437139BB49600CBC464 /* MainMenu.xib */; };
+		2B3F7445139BB4B600CBC464 /* Background.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3F7444139BB4B600CBC464 /* Background.m */; };
+		2B3F744C139BB8B900CBC464 /* LBProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3F744B139BB8B900CBC464 /* LBProgressBar.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B3F741E139BB49600CBC464 /* LBProgressBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBProgressBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B3F7422139BB49600CBC464 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2B3F7425139BB49600CBC464 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2B3F7426139BB49600CBC464 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2B3F7427139BB49600CBC464 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2B3F742A139BB49600CBC464 /* LBProgressBar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LBProgressBar-Info.plist"; sourceTree = "<group>"; };
+		2B3F742C139BB49600CBC464 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2B3F742E139BB49600CBC464 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B3F7430139BB49600CBC464 /* LBProgressBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LBProgressBar-Prefix.pch"; sourceTree = "<group>"; };
+		2B3F7432139BB49600CBC464 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2B3F7434139BB49600CBC464 /* LBProgressBarAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBProgressBarAppDelegate.h; sourceTree = "<group>"; };
+		2B3F7435139BB49600CBC464 /* LBProgressBarAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBProgressBarAppDelegate.m; sourceTree = "<group>"; };
+		2B3F7438139BB49600CBC464 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2B3F7443139BB4B600CBC464 /* Background.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Background.h; sourceTree = "<group>"; };
+		2B3F7444139BB4B600CBC464 /* Background.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Background.m; sourceTree = "<group>"; };
+		2B3F744A139BB8B900CBC464 /* LBProgressBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBProgressBar.h; sourceTree = "<group>"; };
+		2B3F744B139BB8B900CBC464 /* LBProgressBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBProgressBar.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B3F741B139BB49600CBC464 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3F7423139BB49600CBC464 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B3F7413139BB49600CBC464 = {
+			isa = PBXGroup;
+			children = (
+				2B3F7428139BB49600CBC464 /* LBProgressBar */,
+				2B3F7421139BB49600CBC464 /* Frameworks */,
+				2B3F741F139BB49600CBC464 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B3F741F139BB49600CBC464 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B3F741E139BB49600CBC464 /* LBProgressBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B3F7421139BB49600CBC464 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B3F7422139BB49600CBC464 /* Cocoa.framework */,
+				2B3F7424139BB49600CBC464 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2B3F7424139BB49600CBC464 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B3F7425139BB49600CBC464 /* AppKit.framework */,
+				2B3F7426139BB49600CBC464 /* CoreData.framework */,
+				2B3F7427139BB49600CBC464 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2B3F7428139BB49600CBC464 /* LBProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				2B3F7443139BB4B600CBC464 /* Background.h */,
+				2B3F7444139BB4B600CBC464 /* Background.m */,
+				2B3F7434139BB49600CBC464 /* LBProgressBarAppDelegate.h */,
+				2B3F7435139BB49600CBC464 /* LBProgressBarAppDelegate.m */,
+				2B3F744A139BB8B900CBC464 /* LBProgressBar.h */,
+				2B3F744B139BB8B900CBC464 /* LBProgressBar.m */,
+				2B3F7437139BB49600CBC464 /* MainMenu.xib */,
+				2B3F7429139BB49600CBC464 /* Supporting Files */,
+			);
+			path = LBProgressBar;
+			sourceTree = "<group>";
+		};
+		2B3F7429139BB49600CBC464 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B3F742A139BB49600CBC464 /* LBProgressBar-Info.plist */,
+				2B3F742B139BB49600CBC464 /* InfoPlist.strings */,
+				2B3F742E139BB49600CBC464 /* main.m */,
+				2B3F7430139BB49600CBC464 /* LBProgressBar-Prefix.pch */,
+				2B3F7431139BB49600CBC464 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B3F741D139BB49600CBC464 /* LBProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B3F743C139BB49600CBC464 /* Build configuration list for PBXNativeTarget "LBProgressBar" */;
+			buildPhases = (
+				2B3F741A139BB49600CBC464 /* Sources */,
+				2B3F741B139BB49600CBC464 /* Frameworks */,
+				2B3F741C139BB49600CBC464 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBProgressBar;
+			productName = LBProgressBar;
+			productReference = 2B3F741E139BB49600CBC464 /* LBProgressBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B3F7415139BB49600CBC464 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2B3F7418139BB49600CBC464 /* Build configuration list for PBXProject "LBProgressBar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2B3F7413139BB49600CBC464;
+			productRefGroup = 2B3F741F139BB49600CBC464 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B3F741D139BB49600CBC464 /* LBProgressBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B3F741C139BB49600CBC464 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3F742D139BB49600CBC464 /* InfoPlist.strings in Resources */,
+				2B3F7433139BB49600CBC464 /* Credits.rtf in Resources */,
+				2B3F7439139BB49600CBC464 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B3F741A139BB49600CBC464 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B3F742F139BB49600CBC464 /* main.m in Sources */,
+				2B3F7436139BB49600CBC464 /* LBProgressBarAppDelegate.m in Sources */,
+				2B3F7445139BB4B600CBC464 /* Background.m in Sources */,
+				2B3F744C139BB8B900CBC464 /* LBProgressBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B3F742B139BB49600CBC464 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B3F742C139BB49600CBC464 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2B3F7431139BB49600CBC464 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B3F7432139BB49600CBC464 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2B3F7437139BB49600CBC464 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B3F7438139BB49600CBC464 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B3F743A139BB49600CBC464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2B3F743B139BB49600CBC464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2B3F743D139BB49600CBC464 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBProgressBar/LBProgressBar-Prefix.pch";
+				INFOPLIST_FILE = "LBProgressBar/LBProgressBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2B3F743E139BB49600CBC464 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBProgressBar/LBProgressBar-Prefix.pch";
+				INFOPLIST_FILE = "LBProgressBar/LBProgressBar-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B3F7418139BB49600CBC464 /* Build configuration list for PBXProject "LBProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3F743A139BB49600CBC464 /* Debug */,
+				2B3F743B139BB49600CBC464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B3F743C139BB49600CBC464 /* Build configuration list for PBXNativeTarget "LBProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B3F743D139BB49600CBC464 /* Debug */,
+				2B3F743E139BB49600CBC464 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B3F7415139BB49600CBC464 /* Project object */;
+}
